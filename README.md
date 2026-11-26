@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-    <html>
-        <head>
-            <title>DONUT Eats</title>
 
-    <meta property="og:title" content="DONUT Eats">
-    <meta property="og:description" content="Sweetness in Every Bite!">
-    <meta property="og:image" content="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80">
-    <meta property="og:url" content="YOUR-GITHUB-PAGES-LINK">
-    <meta property="og:type" content="website">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DONUT Eats</title>
+    
+    <meta property="og:image" content="https://images.unsplash.comit">
 
     <style>
         body {
@@ -38,6 +35,11 @@
             border-radius: 10px;
         }
 
+        img {
+            width: 250px;
+            border-radius: 10px;
+        }
+
         button {
             background-color: hotpink;
             color: white;
@@ -61,25 +63,27 @@
     </nav>
 
     <section id="home">
-        <h2>Home</h2>
-        <p>Welcome to DONUT Eats!</p>
-        <p>We sell delicious and sweet donuts for everyone.</p>
+        <h2>Welcome to DONUT Eats!</h2>
+
+        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80">
+
+        <p>We sell delicious and sweet donuts for everyone!</p>
     </section>
 
     <section id="menu">
         <h2>Our Menu</h2>
 
         <h3>Strawberry Donut</h3>
-        <p>Price: ₱25 | Size: Medium | Stocks: 20</p>
+        <p>Price: ₱25 | Medium | Stocks: 20</p>
 
         <h3>Chocolate Donut</h3>
-        <p>Price: ₱25 | Size: Medium | Stocks: 20</p>
+        <p>Price: ₱25 | Medium | Stocks: 20</p>
 
         <h3>Glazed Donut</h3>
-        <p>Price: ₱20 | Size: Medium | Stocks: 15</p>
+        <p>Price: ₱20 | Medium | Stocks: 15</p>
 
         <h3>Cookies & Cream</h3>
-        <p>Price: ₱30 | Size: Large | Stocks: 10</p>
+        <p>Price: ₱30 | Large | Stocks: 10</p>
     </section>
 
     <section id="about">
@@ -91,6 +95,7 @@
 
     <section id="contact">
         <h2>Contact Us</h2>
+
         <p>Facebook: DONUT Eats</p>
         <p>Email: donuteats@gmail.com</p>
 
@@ -114,6 +119,7 @@
 
     <section id="settings">
         <h2>Settings</h2>
+
         <button onclick="changeColor()">Change Color</button>
         <button onclick="resetColor()">Reset</button>
     </section>
@@ -136,8 +142,6 @@
             document.body.style.backgroundColor = "pink";
         }
     </script>
-
-    </html>
 
 </body>
 </html>
