@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-    <title>DONUT Eats</title>
+    <html>
+        <head>
+            <title>DONUT Eats</title>
 
     <meta property="og:title" content="DONUT Eats">
-<meta property="og:description" content="Sweetness in Every Bite!">
-<meta property="og:image" content="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80">
-<meta property="og:url" content="YOUR-GITHUB-PAGES-LINK">
-<meta property="og:type" content="website">
+    <meta property="og:description" content="Sweetness in Every Bite!">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=600&q=80">
+    <meta property="og:url" content="YOUR-GITHUB-PAGES-LINK">
+    <meta property="og:type" content="website">
 
     <style>
         body {
@@ -137,6 +136,8 @@
             document.body.style.backgroundColor = "pink";
         }
     </script>
+
+    </html>
 
 </body>
 </html>
